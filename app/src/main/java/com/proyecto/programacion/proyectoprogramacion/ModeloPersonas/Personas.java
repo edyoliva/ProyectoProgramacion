@@ -66,6 +66,20 @@ public class Personas {
 
                 
         );
+        
+         PERSONAS_LIST.add(new Personas(R.string.nombreP3,
+                        R.string.descripcionP3,
+                        R.string.edadP3,
+                        R.string.carreraP3,
+                        R.drawable.person,
+                        R.string.estadocivilP3,
+                        R.string.telefonoP3,
+                        R.string.emailP3,
+                        R.string.facebookP3,
+                        R.string.twitterP3)
+
+                
+        );
 
     }
 
