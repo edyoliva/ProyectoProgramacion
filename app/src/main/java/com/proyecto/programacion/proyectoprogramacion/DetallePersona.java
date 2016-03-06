@@ -105,6 +105,13 @@ public class DetallePersona extends AppCompatActivity {
                 startActivity(callIntent);
             }
         });
+            
+            Twitter_Link.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Intent.ACTION_VIEW,Uri.parse(getString(item.getTwitter_Link()))));
+            }
+        });
 
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
