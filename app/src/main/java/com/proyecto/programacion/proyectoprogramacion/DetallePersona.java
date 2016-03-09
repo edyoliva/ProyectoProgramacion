@@ -120,11 +120,12 @@ public class DetallePersona extends AppCompatActivity {
         });
         
         
-            Facebook_Link.setOnClickListener(new View.OnClickListener() {
+          Facebook_Link.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(Intent.ACTION_VIEW,Uri.parse(getString(item.getFacebook_Link()))));
             }
+        });
         
         Twitter_Link.setOnClickListener(new View.OnClickListener() {
             @Override
